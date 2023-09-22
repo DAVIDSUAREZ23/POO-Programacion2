@@ -16,7 +16,6 @@ public class Square extends Shape{
         return getWidth();
     }
 
-    ...
 
     public void setHeight(int newHeight){
         setWidth(newHeight);
