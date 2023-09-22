@@ -1,4 +1,4 @@
-package domain.ui;
+package ui;
 import domain.model.Rect;
 import domain.model.Shape;
 import domain.model.Square;
