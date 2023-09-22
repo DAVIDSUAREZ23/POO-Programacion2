@@ -32,13 +32,13 @@ public class Test {
 
             rect.setWidth(65);
 
-            System.out.println("Rectangle Width: "+ rect.getWidth());
-            System.out.println("Rectangle Height:"+ rect.getHeight());
+            System.out.println("Rectangle Width: " + rect.getWidth());
+            System.out.println("Rectangle Height:" + rect.getHeight());
 
             rect.setHeight(21);
 
-            System.out.println("Rectangle Width: "+ rect.getWidth());
-            System.out.println("Rectangle Height:"+ rect.getHeight());
+            System.out.println("Rectangle Width: " + rect.getWidth());
+            System.out.println("Rectangle Height:" + rect.getHeight());
 
 
 
