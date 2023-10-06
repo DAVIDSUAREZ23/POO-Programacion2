@@ -26,6 +26,15 @@ public class Square extends Shape{
     }
     @Override
     public int getPerimeter(){
-        return 4*(getWidth());
+        return 2*getWidth()+2*getHeight(); 
+    }
+
+    public Square(int newX, int newY, int newWidth){
+        super(newX, newY);
+        setWidth(newWidth);
+    }
+
+    public Square(int newWidth){
+        this(0, 0, newWidth);
     }
 }
