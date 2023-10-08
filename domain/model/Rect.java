@@ -15,7 +15,7 @@ public class Rect extends Square{
         height = newHeight;
     }
 
-    /*@Override
+    @Override
     public int getArea(){
         return getWidth()*getHeight();
     }
@@ -24,7 +24,7 @@ public class Rect extends Square{
     public int getPerimeter(){
         return 2*(getWidth()+getHeight());
     }
-    */
+    
 
     public Rect(int newX, int newY, int newWidth, int newHeight){
         super(newX, newY, newWidth);

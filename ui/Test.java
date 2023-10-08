@@ -8,57 +8,62 @@ import domain.model.Ellipse;
 public class Test {
 
     public static void main(String[] args) {
-        /*var shape1 = new Shape(-200,10);
+        
+        /*
+        var shape1 = new Shape(-200,10);
         var shape2= new Shape(20,1500);
 
             shape1.y = -500;
             shape1.setX(-200);
 
-            System.out.println(shape1.getX());
-            System.out.println("Ins #1 x= "+ shape1.x + "y =" + shape1.y);
+            System.out.println("Shape 1: " + shape1.getX() + ", " + shape1.getY());
+            System.out.println("Shape 2: " + shape2.getX() + ", " + shape2.getY());
             */
 
             
-            /*var square = new Square();*/
-
+            //var square = new Square();
+             
+            
+            /* 
             var rect = new Rect();
 
             rect.setX(50);
-            /*square.setX(50);
-            square.setWidth(65);
-            */
 
-            /*
             System.out.println("Square: " + square.getWidth());
             System.out.println("Square: " + square.getX());
-            */
+            
 
             rect.setWidth(65);
 
             System.out.println("Rectangle Width: " + rect.getWidth());
             System.out.println("Rectangle Height:" + rect.getHeight());
+            
 
             rect.setHeight(21);
 
             System.out.println("Rectangle Width: " + rect.getWidth());
             System.out.println("Rectangle Height:" + rect.getHeight());
-            
+            */
+
+            /*Test to Square Area
             var s= new Square();
             s.setWidth(10);
             s.setHeight(20);
 
             System.out.println("Area: " + s.getArea());
             System.out.println("Perimetro: " + s.getPerimeter());
-
+            */
             
-            /*var s= new Rect();
-            s.setWidth(10);
-            s.setHeight(20);
+            /*Test to Rectangle Area
+            var r = new Rect();
+            r.setWidth(10);
+            r.setHeight(20);
 
-            System.out.println("Area: " + s.getArea());
-            System.out.println("Perimetro: " + s.getPerimeter());
+            System.out.println("Area: " + r.getArea());
+            System.out.println("Perimetro: " + r.getPerimeter());
+            */
 
-
+            /*Test to Triangle Area
             var t = new Triangle();
             t.setSide1(10);
             t.setSide2(20);
@@ -66,12 +71,15 @@ public class Test {
 
             System.out.println("Area: " + t.getArea());
             System.out.println("Perimetro: " + t.getPerimeter());
+            */
 
+            /*Test to Circle Area
             var c= new Circle();
             c.setRadius(10);
             
             System.out.println("Area: " + c.getArea());
-            System.out.println("Perimetro: " + c.getPerimeter());*/
+            System.out.println("Perimetro: " + c.getPerimeter());
+            */
 
             /*Test para los valores de los dibujos */
             var shapes= new Shape[]{
@@ -82,12 +90,13 @@ public class Test {
                 new Square(10)
             };
 
-            var sumArea =0;
+            var sumArea = 0;
             
-            for (Shape s : shapes){
+            for (Shape s: shapes){
             
                 sumArea += s.getArea();
             }
+
             var argArea = sumArea/shapes.length;
             System.out.println("Area promedio: " + argArea);
     } 

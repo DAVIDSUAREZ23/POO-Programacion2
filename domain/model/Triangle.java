@@ -38,6 +38,15 @@ public class Triangle extends Shape {
     public int getPerimeter(){
         return getSide1()+getSide2()+getSide3(); 
     }
+    public Triangle(int newX, int newY, int newSide1, int newSide2, int newSide3){
+        super(newX, newY);
+        setSide1(newSide1);
+        setSide2(newSide2);
+        setSide3(newSide3);
+    }
+    public Triangle(int newSide1, int newSide2, int newSide3){
+        this(0, 0, newSide1, newSide2, newSide3);
+    }
     
 }
 

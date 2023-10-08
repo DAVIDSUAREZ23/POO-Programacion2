@@ -5,7 +5,7 @@ public class Circle extends Shape {
     public int getRadius(){
         return radius;
     }
-    public void setradius(int newradius){ 
+    public void setRadius(int newradius){ 
         if(newradius >= 0){
             radius = newradius;
             
@@ -24,7 +24,7 @@ public class Circle extends Shape {
 
     public Circle(int newX, int newY, int newRadius){
         super(newX, newY);
-        setradius(newRadius);
+        setRadius(newRadius);
     }
 
     public Circle(int newRadius){
